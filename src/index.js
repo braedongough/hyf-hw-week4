@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import UserProvider, { UserContext } from "./user.context";
-import "./index.css";
 
 const Users = () => {
   const { users, loading, error } = React.useContext(UserContext);
